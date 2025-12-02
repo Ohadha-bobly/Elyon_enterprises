@@ -1,0 +1,3 @@
+{
+  "/api/sms/provider-config/route": "app/api/sms/provider-config/route.js"
+}

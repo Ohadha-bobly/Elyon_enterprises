@@ -1,0 +1,3 @@
+module.exports=[8749,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(45641);a.n(d("[project]/Desktop/Elyon_2/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},63647,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(45641);a.n(d("[project]/Desktop/Elyon_2/node_modules/next/dist/client/components/builtin/global-error.js"))},83681,a=>{"use strict";a.i(8749);var b=a.i(63647);a.n(b)}];
+
+//# sourceMappingURL=69ccc_next_dist_client_components_builtin_global-error_f5098e66.js.map

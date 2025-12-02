@@ -1,0 +1,11 @@
+[00:00:11.041] Server  LOG      ✓ Ready in 7.9s
+[00:00:30.749] Server  LOG      ○ Compiling / ...
+[00:01:05.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:20.690] Server  LOG      ○ Compiling /_not-found/page ...
+[00:01:31.438] Browser LOG     TSS: Protection is disabled, skipping TSS setup.
+[00:01:36.204] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:38.621] Browser DEBUG   injection-tss TSS: hosted page injected
+[00:01:38.621] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce
+[00:02:38.732] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:39.717] Browser DEBUG   injection-tss TSS: hosted page injected
+[00:02:39.717] Browser DEBUG   injection-tss MBTSS: Nonce:  nonce

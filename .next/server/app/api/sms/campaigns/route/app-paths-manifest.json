@@ -1,0 +1,3 @@
+{
+  "/api/sms/campaigns/route": "app/api/sms/campaigns/route.js"
+}

@@ -1,0 +1,236 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/auth/login",
+      "regex": "^/api/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/login(?:/)?$"
+    },
+    {
+      "page": "/api/auth/logout",
+      "regex": "^/api/auth/logout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/logout(?:/)?$"
+    },
+    {
+      "page": "/api/billing/transactions",
+      "regex": "^/api/billing/transactions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/billing/transactions(?:/)?$"
+    },
+    {
+      "page": "/api/chatbot/message",
+      "regex": "^/api/chatbot/message(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/chatbot/message(?:/)?$"
+    },
+    {
+      "page": "/api/client/checkout",
+      "regex": "^/api/client/checkout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/client/checkout(?:/)?$"
+    },
+    {
+      "page": "/api/client/packages",
+      "regex": "^/api/client/packages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/client/packages(?:/)?$"
+    },
+    {
+      "page": "/api/client/subscriptions",
+      "regex": "^/api/client/subscriptions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/client/subscriptions(?:/)?$"
+    },
+    {
+      "page": "/api/clients",
+      "regex": "^/api/clients(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/clients(?:/)?$"
+    },
+    {
+      "page": "/api/sms/bulk-send",
+      "regex": "^/api/sms/bulk\\-send(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sms/bulk\\-send(?:/)?$"
+    },
+    {
+      "page": "/api/sms/campaigns",
+      "regex": "^/api/sms/campaigns(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sms/campaigns(?:/)?$"
+    },
+    {
+      "page": "/api/sms/config",
+      "regex": "^/api/sms/config(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sms/config(?:/)?$"
+    },
+    {
+      "page": "/api/sms/expiry-notifications",
+      "regex": "^/api/sms/expiry\\-notifications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sms/expiry\\-notifications(?:/)?$"
+    },
+    {
+      "page": "/api/sms/logs",
+      "regex": "^/api/sms/logs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sms/logs(?:/)?$"
+    },
+    {
+      "page": "/api/sms/provider-config",
+      "regex": "^/api/sms/provider\\-config(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sms/provider\\-config(?:/)?$"
+    },
+    {
+      "page": "/api/sms/send",
+      "regex": "^/api/sms/send(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sms/send(?:/)?$"
+    },
+    {
+      "page": "/api/sms/templates",
+      "regex": "^/api/sms/templates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sms/templates(?:/)?$"
+    },
+    {
+      "page": "/api/webhooks/mpesa-callback",
+      "regex": "^/api/webhooks/mpesa\\-callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/webhooks/mpesa\\-callback(?:/)?$"
+    },
+    {
+      "page": "/client",
+      "regex": "^/client(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client(?:/)?$"
+    },
+    {
+      "page": "/client/account",
+      "regex": "^/client/account(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/account(?:/)?$"
+    },
+    {
+      "page": "/client/checkout",
+      "regex": "^/client/checkout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/checkout(?:/)?$"
+    },
+    {
+      "page": "/client/packages",
+      "regex": "^/client/packages(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/packages(?:/)?$"
+    },
+    {
+      "page": "/client/subscriptions",
+      "regex": "^/client/subscriptions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/subscriptions(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/billing",
+      "regex": "^/dashboard/billing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/billing(?:/)?$"
+    },
+    {
+      "page": "/dashboard/clients",
+      "regex": "^/dashboard/clients(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/clients(?:/)?$"
+    },
+    {
+      "page": "/dashboard/sms",
+      "regex": "^/dashboard/sms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/sms(?:/)?$"
+    },
+    {
+      "page": "/dashboard/sms/campaigns",
+      "regex": "^/dashboard/sms/campaigns(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/sms/campaigns(?:/)?$"
+    },
+    {
+      "page": "/dashboard/sms/logs",
+      "regex": "^/dashboard/sms/logs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/sms/logs(?:/)?$"
+    },
+    {
+      "page": "/dashboard/sms/templates",
+      "regex": "^/dashboard/sms/templates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/sms/templates(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

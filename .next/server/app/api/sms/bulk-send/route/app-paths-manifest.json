@@ -1,0 +1,3 @@
+{
+  "/api/sms/bulk-send/route": "app/api/sms/bulk-send/route.js"
+}

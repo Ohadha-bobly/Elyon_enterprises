@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  
+  /* Dark mode color system - ISP Dashboard */
+  --color-background: rgb(13, 13, 18);
+  --color-foreground: rgb(240, 240, 245);
+  --color-card: rgb(23, 23, 32);
+  --color-card-hover: rgb(33, 33, 44);
+  --color-border: rgb(45, 45, 60);
+  --color-border-light: rgb(55, 55, 72);
+  
+  /* Primary Brand Colors */
+  --color-primary: rgb(59, 130, 246); /* Blue */
+  --color-primary-dark: rgb(37, 99, 235);
+  --color-primary-light: rgb(96, 165, 250);
+  
+  /* Accent Colors */
+  --color-success: rgb(34, 197, 94);
+  --color-warning: rgb(251, 146, 60);
+  --color-error: rgb(239, 68, 68);
+  --color-info: rgb(14, 165, 233);
+  
+  /* Semantic tokens */
+  --color-muted: rgb(107, 114, 128);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: linear-gradient(135deg, var(--color-background) 0%, rgb(20, 20, 28) 100%);
+  min-height: 100vh;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-card);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-border-light);
+}
+
+/* Utility classes */
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
